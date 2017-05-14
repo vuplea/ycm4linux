@@ -62,6 +62,7 @@ flags = [
     '-fno-common',
     '-Werror-implicit-function-declaration',
     '-Wno-format-security',
+    '-Wdeclaration-after-statement',
 ]
 
 def getExpandedFlags():
